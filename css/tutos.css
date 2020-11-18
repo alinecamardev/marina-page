@@ -1,0 +1,91 @@
+/* Section Tutoriais */
+
+#tutoriais {
+    /* background-color: red; */
+    margin-top: 10px;
+}
+
+#tutoriais .content-tutoriais {
+    /* background-color: coral; */
+    width: 80%;
+
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tutoriais .content-tutoriais .box-1 {
+    /* background-color: white; */
+    width: 40%;
+    margin: 0 auto;    
+}
+
+#tutoriais .box-tutos {
+    height: 40px;
+    
+    background-color: #000080;
+
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+    border: solid white 3px;
+    margin-bottom: 20px;
+
+    margin: 0 auto;
+}
+
+#tutoriais .box-tutos:hover {
+    background-color:#0000CD;
+}
+
+#tutoriais .box-tutos a {
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    letter-spacing: 3px;
+}
+
+/* Section Tutoriais Fim */
+
+/* Section Back */
+
+#back {
+    /* background-color: red; */
+    margin-top: 35px;
+}
+
+#back .content-back {
+    margin: 0 auto;
+    /* background-color: rosybrown; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#back .content-back button {
+    padding: 10px;
+    width: 100px;
+    border: none;
+    border-bottom: solid #a5bf03 3px;
+    background-color: white;
+    border-radius: 3px;
+
+    margin-bottom: 20px;
+
+}
+
+#back .content-back a {
+    width: 30px;
+    text-align: center;
+    font-size: 12px;
+    color: #333437;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+

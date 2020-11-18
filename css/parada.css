@@ -1,0 +1,16 @@
+#parada {
+    /* background-color: red; */
+}
+
+#parada .content-parada {
+    width: 90%;
+    /* background-color: chartreuse; */
+    margin: 0 auto;
+}
+
+#parada .content-parada img {
+    height: 470px;
+    margin-left: 6px;
+    margin-bottom: 6px;
+    border-radius: 8px;
+}

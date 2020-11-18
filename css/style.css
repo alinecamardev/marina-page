@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+ background: url(../images/back-texture-or.png);
+ background-size: cover;
+ background-repeat: no-repeat;
+ -webkit-font-smoothing: antialiased;
+}
+
+body, input, button {
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+ cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header */
+
+.box-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-header img {
+    margin-top: 15px;
+    width: 170px;
+}
+
+/* Header Fim */
+
+/* Section Options */
+
+#options {
+    /* background-color: violet; */
+   margin-top: 50px;
+}
+
+#options .options-select {
+    width: 70%;
+    margin: 0 auto;
+    /* background-color: yellow; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#options .box-select {
+    width: 300px;
+    height: 180px;
+    background-color: #000080;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-left: 10px;
+    box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.25);
+}
+
+#options .box-select:hover {
+    background-color:#0000CD;
+    transform: scale(0.8);
+}
+
+#options .box-select a {
+    width: 100%;
+    height: 100%;
+
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+
+    letter-spacing: 3px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Section Options Fim */
+
+/* Footer */
+
+#footer {
+    background-color: #C0C4E2;
+    position: absolute;
+    bottom: 0;
+
+    border-top: solid blue 3px;
+}
+
+#footer .content-footer {
+    width: 80%;
+    height: 130px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    
+    margin: 0 auto;
+}
+
+#footer .content-footer img {
+    width: 10%;
+}
+
+#footer .content-footer .ask h5 {
+    margin-bottom: 10px;
+}
+
+#footer .content-footer .ask a {
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+
+    color: #333437;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+#footer .content-footer .contact h5 {
+    margin-bottom: 10px;
+}
+
+#footer .content-footer .contact a {
+    font-size: 14px;
+    margin-bottom: 3px;
+
+    display: flex;
+    flex-direction: column;
+
+    color: #333437;
+    font-weight: bold;
+}
+
+#footer .content-footer .social {
+    width: 20%;
+}
+
+#footer .content-footer .social img {
+    margin-left: 20px;
+}
+
+/* Footer Fim */
+
