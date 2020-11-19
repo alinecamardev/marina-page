@@ -54,7 +54,7 @@
 
 #back {
   /* background-color: red; */
-  margin-top: 20px;
+  margin: 20px 0;
 }
 
 #back .content-back {
@@ -93,7 +93,7 @@
 
 @media (max-width: 850px) {
   #tutoriais .content-tutoriais {
-    /* background-color: yellowgreen; */
+    background-color: yellowgreen;
     width: 100%;
     flex-direction: column;
   }
@@ -115,5 +115,8 @@
   #tutoriais .box-tutos a {
     font-size: 8px;
     font-weight: bold;
+  }
+  #back {
+    margin: 20px 0;
   }
 }
