@@ -185,7 +185,30 @@ a {
   #options .box-select a {
     font-size: 16px;
   }
-  #footer {
+  #footer .content-footer {
+    margin: 0 auto;
+    width: 90%;
+  }
+  #footer .content-footer .ask {
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  #footer .content-footer .ask h5 {
+    font-size: 12px;
+  }
+  #footer .content-footer .ask a {
+    font-size: 10px;
+  }
+  #footer .content-footer .contact {
+    margin-left: 20px;
+  }
+  #footer .content-footer .contact h5 {
+    font-size: 12px;
+  }
+  #footer .content-footer .contact a {
+    font-size: 10px;
+  }
+  #footer .content-footer .social {
     display: none;
   }
 }
@@ -198,7 +221,7 @@ a {
     height: 100%;
   }
   #options .options-select {
-    background-color: #0000cd;
+    /* background-color: #0000cd; */
     width: 80%;
     height: 300px;
     /* margin-bottom: 100px; */
@@ -210,5 +233,8 @@ a {
   #footer {
     position: relative;
     margin-top: 70px;
+  }
+  #footer .content-footer .social {
+    display: none;
   }
 }
