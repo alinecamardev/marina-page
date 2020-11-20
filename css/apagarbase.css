@@ -1,19 +1,18 @@
-.box-header {
-    /* background-color: red; */
-    margin-bottom: 40px;
-}
-
-/* Section Parada */
-
 #parada {
     /* background-color: red; */
     margin-bottom: 40px;
 }
 
 #parada .content-parada {
-    /* background-color: chartreuse; */
-    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     margin: 0 auto;
+
+    width: 90%;
+    margin-top: 40px;
+    /* background-color: chartreuse; */
 }
 
 #parada .content-parada img {
@@ -23,7 +22,35 @@
     border-radius: 8px;
 }
 
-/* Media Queries */
+#obs {
+    /* background-color: red; */
+}
+
+#obs .box-obs {
+    width: 40%;
+    background-color: white;
+
+    margin: 0 auto;
+    border-radius: 8px;
+    border: solid #0000cd 1px;
+    opacity: 0.5;
+
+    margin-bottom: 40px;
+
+    padding: 30px;
+}
+
+#obs .box-obs h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+#obs .box-obs p {
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+}
 
 @media (max-width: 730px) {
     #parada .content-parada {
@@ -42,4 +69,3 @@
         align-items: center;
     }
 }
-
