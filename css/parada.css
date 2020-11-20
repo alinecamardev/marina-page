@@ -1,5 +1,13 @@
+.box-header {
+    /* background-color: red; */
+    margin-bottom: 40px;
+}
+
+/* Section Parada */
+
 #parada {
     /* background-color: red; */
+    margin-bottom: 40px;
 }
 
 #parada .content-parada {
@@ -14,3 +22,24 @@
     margin-bottom: 6px;
     border-radius: 8px;
 }
+
+/* Media Queries */
+
+@media (max-width: 730px) {
+    #parada .content-parada {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 1028px) {
+    #parada .content-parada {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+

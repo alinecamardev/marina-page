@@ -9,16 +9,16 @@
 }
 
 body {
-  background: url(../images/back-texture-or.png);
+  background-color: #8EC5FC;
+  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+  
+
+
   background-size: cover;
   background-repeat: no-repeat;
   -webkit-font-smoothing: antialiased;
-}
-
-body,
-input,
-button {
   font-family: "Roboto", sans-serif;
+  height: 100vh;
 }
 
 button {
@@ -48,13 +48,14 @@ a {
 
 #options {
   /* background-color: violet; */
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 #options .options-select {
-  width: 70%;
-  margin: 0 auto;
   /* background-color: yellow; */
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 20px;
 
   display: flex;
   justify-content: center;
@@ -84,10 +85,11 @@ a {
   width: 100%;
   height: 100%;
 
-  font-size: 20px;
+  font-size: 16px;
   color: white;
   text-transform: uppercase;
   font-weight: bold;
+  text-align: center;
 
   letter-spacing: 3px;
 
@@ -98,77 +100,12 @@ a {
 
 /* Section Options Fim */
 
-/* Footer */
-
-#footer {
-  background-color: #c0c4e2;
-  position: absolute;
-  bottom: 0;
-
-  border-top: solid blue 3px;
-}
-
-#footer .content-footer {
-  width: 80%;
-  height: 130px;
-
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  margin: 0 auto;
-}
-
-#footer .content-footer img {
-  width: 10%;
-}
-
-#footer .content-footer .ask h5 {
-  margin-bottom: 10px;
-}
-
-#footer .content-footer .ask a {
-  font-size: 14px;
-  display: flex;
-  flex-direction: column;
-
-  color: #333437;
-  font-weight: bold;
-  margin-bottom: 3px;
-}
-
-#footer .content-footer .contact h5 {
-  margin-bottom: 10px;
-}
-
-#footer .content-footer .contact a {
-  font-size: 14px;
-  margin-bottom: 3px;
-
-  display: flex;
-  flex-direction: column;
-
-  color: #333437;
-  font-weight: bold;
-}
-
-#footer .content-footer .social {
-  width: 20%;
-}
-
-#footer .content-footer .social img {
-  margin-left: 20px;
-}
-
-/* Footer Fim */
-
 /* -------------------- MEDIA QUERIES  */
 
 /* Mobile */
 @media (max-width: 730px) {
-  body {
-    background-image: url(../images/back-texture-or.png);
-    height: 100vh;
+  .box-header img {
+    width: 170px;
   }
   #options .options-select {
     /* background-color: red; */
@@ -185,56 +122,21 @@ a {
   #options .box-select a {
     font-size: 16px;
   }
-  #footer .content-footer {
-    margin: 0 auto;
-    width: 90%;
-  }
-  #footer .content-footer .ask {
-    margin-top: 10px;
-    margin-left: 20px;
-  }
-  #footer .content-footer .ask h5 {
-    font-size: 12px;
-  }
-  #footer .content-footer .ask a {
-    font-size: 10px;
-  }
-  #footer .content-footer .contact {
-    margin-left: 20px;
-  }
-  #footer .content-footer .contact h5 {
-    font-size: 12px;
-  }
-  #footer .content-footer .contact a {
-    font-size: 10px;
-  }
-  #footer .content-footer .social {
-    display: none;
-  }
 }
 
 /* Tablet */
 
 @media (max-width: 1028px) {
-  body {
-    background-image: url(../images/back-texture-or.png);
-    height: 100%;
+  #options {
+    margin-top: 50px;
   }
   #options .options-select {
     /* background-color: #0000cd; */
-    width: 80%;
-    height: 300px;
-    /* margin-bottom: 100px; */
+    width: 90%;
+    height: 100%;
   }
   #options .box-select a {
     padding: 10px;
-    font-size: 15px;
-  }
-  #footer {
-    position: relative;
-    margin-top: 70px;
-  }
-  #footer .content-footer .social {
-    display: none;
+    font-size: 12px;
   }
 }
